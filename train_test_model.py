@@ -65,3 +65,4 @@ model = tc.loadmodel()
 words = tc.loaddict()
 # 输出概率
 print(tc.test(sentence, model, words))
+#
